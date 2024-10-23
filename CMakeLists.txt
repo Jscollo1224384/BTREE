@@ -3,4 +3,8 @@ project(BTREE_C C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(BTREE_C main.c)
+add_executable(BTREE_C main.c
+        helper_functions.c
+        helper_functions.h
+        node.c
+        node.h)
